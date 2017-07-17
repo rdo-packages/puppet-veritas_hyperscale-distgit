@@ -48,3 +48,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/veritas_hyperscale/
 
 
 %changelog
+# REMOVEME: error caused by commit https://github.com/vtas-hyperscale-ci/puppet-veritas_hyperscale/commit/5cad000498cb315eb9f38564c1bc722a2953c69b
