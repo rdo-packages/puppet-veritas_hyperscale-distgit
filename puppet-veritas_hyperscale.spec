@@ -1,8 +1,8 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:                   puppet-veritas_hyperscale
-Version:                XXX
-Release:                XXX
+Version:                1.0.0
+Release:                1%{?dist}
 Summary:                Veritas HyperScale installer.
 License:                ASL 2.0
 
@@ -48,3 +48,6 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/veritas_hyperscale/
 
 
 %changelog
+* Fri Aug 25 2017 Alfredo Moralejo <amoralej@redhat.com> 1.0.0-1
+- Update to 1.0.0
+
